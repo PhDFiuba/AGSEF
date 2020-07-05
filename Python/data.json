@@ -1,0 +1,34 @@
+{
+   "secciones": [
+      {
+         "id": "A",
+		 "nombre":"T_A",
+         "vecino": ["B"]
+      },
+	  {
+         "id": "B",
+		 "nombre":"T_B",
+         "vecino": ["C"]
+      },
+      {
+         "id": "C",
+		 "nombre":"T_C",
+         "vecino": ["D"]
+      },
+	  {
+         "id": "D",
+		 "nombre":"T_D",
+         "vecino": ["E","F"]
+      },
+	  {
+         "id": "E",
+		 "nombre":"T_E",
+         "vecino": ["B"]
+      },
+	  {
+         "id": "F",
+		 "nombre":"T_F",
+         "vecino": ["D"]
+      }
+   ]
+}
