@@ -1,0 +1,69 @@
+{
+   "secciones": [
+      {
+         "id": "A",
+		 "nombre":"T_A",
+         "vecino": ["B"]
+      },
+	  {
+         "id": "B",
+		 "nombre":"T_B",
+         "vecino": ["A","C"]
+      },
+	  {
+         "id": "C",
+		 "nombre":"T_C",
+         "vecino": ["B","D","F"]
+      },
+	  {
+         "id": "D",
+		 "nombre":"T_D",
+         "vecino": ["C","E"]
+      },
+	  {
+         "id": "E",
+		 "nombre":"T_E",
+         "vecino": ["D"]
+      },
+	  {
+         "id": "F",
+		 "nombre":"T_F",
+         "vecino": ["C","G","H"]
+      },
+	  {
+         "id": "G",
+		 "nombre":"T_G",
+         "vecino": ["F","I"]
+      },
+	  {
+         "id": "H",
+		 "nombre":"T_H",
+         "vecino": ["F","J"]
+      },
+	  {
+         "id": "I",
+		 "nombre":"T_I",
+         "vecino": ["G"]
+      },
+	  {
+         "id": "J",
+		 "nombre":"T_J",
+         "vecino": ["H"]
+      },
+	  {
+         "id": "K",
+		 "nombre":"T_K",
+         "vecino": ["H"]
+      },
+	  {
+         "id": "L",
+		 "nombre":"T_L",
+         "vecino": ["K"]
+      },
+{
+         "id": "M",
+		 "nombre":"T_M",
+         "vecino": ["J"]
+      }	  
+   ]
+}
