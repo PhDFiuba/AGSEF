@@ -70,7 +70,7 @@ def analizar_grafo():
     
     
 #%%
-cargar_json('data_2.json')
+cargar_json('data_1.json')
 N_color = analizar_grafo()
     
 
