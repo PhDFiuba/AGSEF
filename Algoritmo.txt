@@ -1,0 +1,41 @@
+4-X-1
+5-S-2
+6-X-3
+
+1-post_up
+2-post
+3-post_down
+4-prev_up
+5-prev
+6-prev_down
+
+for s in switch:
+	if post_up != switch:
+		post_up.sem = <<
+		if prev:
+			closest_prev.sem = >>
+		elsif prev_down:
+			closest_prev_down.sem = >>
+	if post != switch:
+		if prev:
+			post.sem = <<<
+			closest_prev.sem = >>>
+		else:
+			post.sem = <<
+			if prev_up:				
+				prev_up.sem = >>
+			if prev_down:
+				prev_down.sem = >>			
+	if post_down != switch:
+		post_down.sem = <<
+		if prev_down:			
+			closest_prev_down.sem = >>
+		elsif prev:
+			closest_prev.sem = >>	
+			
+			
+			
+			
+			
+	
+	
